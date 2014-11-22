@@ -1,0 +1,71 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="BlueHour.WP8.Views.SunriseSunsetListView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Custom="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:services="clr-namespace:BlueHour.WP8.Services"
+    services:Navigator.Source="{Binding}"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    Style="{StaticResource DefaultPage}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d" d:DesignHeight="696" d:DesignWidth="480"
+    shell:SystemTray.IsVisible="True"
+    DataContext="{Binding Source={StaticResource Locator}, Path=SunriseSunsetListViewModel}" >
+
+    <phone:PhoneApplicationPage.Resources>
+        <DataTemplate x:Key="SunriseSunsetTemplate">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="{Binding DateFormatted}" Margin="5,10,0,10" FontSize="18.667" Width="70" VerticalAlignment="Center" />
+                <Image Source="\Images\Sunrise.png" Margin="25,0,0,0" />
+                <TextBlock Text="{Binding SunriseTimeFormatted}" Margin="5,10,0,10" FontSize="29.333" Width="70" />
+                <Image Source="\Images\Sunset.png" Margin="35,0,0,0" />
+                <TextBlock Text="{Binding SunsetTimeFormatted}" Margin="5,10,0,10" FontSize="29.333" Width="70" />
+            </StackPanel>
+        </DataTemplate>
+    </phone:PhoneApplicationPage.Resources>
+    
+    <Custom:Interaction.Triggers>
+        <Custom:EventTrigger>
+            <Custom:InvokeCommandAction Command="{Binding ControlLoadedCommand}"/>
+        </Custom:EventTrigger>
+    </Custom:Interaction.Triggers>
+  <Grid x:Name="LayoutRoot" Background="{Binding BackgroundImage}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+       
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock x:Name="ApplicationTitle" Text="{Binding LocalizedResources.ApplicationTitle, Source={StaticResource LocalizedStrings}}" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock x:Name="PageTitle" Text="{Binding LocalizedResources.SunriseSunsetPageTitle, Source={StaticResource LocalizedStrings}}" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <StackPanel Orientation="Vertical">
+                <toolkit:PerformanceProgressBar Foreground="White" Margin="0,25, 0, 25" Height="20" Visibility="{Binding IsProgressBarVisible, Converter={StaticResource VisibilityConverter}}" IsIndeterminate="True"  />
+                <ListBox x:Name="SunriseSunsetListBox" 
+                         ItemsSource="{Binding SunriseSunsetViewModels}" 
+                         SelectedItem="{Binding SelectedSunriseSunset, Mode=TwoWay}"
+                         ItemTemplate="{StaticResource SunriseSunsetTemplate}"
+                         Visibility="{Binding ShowListBox}">
+                </ListBox>
+            </StackPanel>
+        </Grid>
+    </Grid>
+
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="False">
+            <shell:ApplicationBarIconButton IconUri="/Images/Settings.png" Text="Settings" Click="ApplicationBarSettingsButton_OnClick"/>
+            <shell:ApplicationBarIconButton IconUri="/Images/Refresh.png" Text="Refresh" Click="ApplicationBarRefreshButton_OnClick"/>
+            <shell:ApplicationBarIconButton IconUri="/Images/About.png" Text="About" Click="ApplicationBarAboutButton_OnClick"/>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+</phone:PhoneApplicationPage>

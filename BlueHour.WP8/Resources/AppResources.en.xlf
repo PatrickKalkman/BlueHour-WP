@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en" original="AppResources.resx" tool-id="MultilingualAppToolkit" product-name="BlueHour.WP8" product-version="1.0.0.0" build-num="0">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="3.1.1085.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resx">
+        <trans-unit id="Resx/About" translate="yes" xml:space="preserve">
+          <source>About</source>
+          <target state="new">About</target>
+        </trans-unit>
+        <trans-unit id="Resx/AboutPageTitle" translate="yes" xml:space="preserve">
+          <source>About</source>
+          <target state="new">About</target>
+        </trans-unit>
+        <trans-unit id="Resx/AboutTextParagraph1" translate="yes" xml:space="preserve">
+          <source>The blue hour refers to the period of twilight each morning and evening where there is neither full daylight nor complete darkness. The time is considered special because of the quality of the light at this time of day.</source>
+          <target state="new">The blue hour refers to the period of twilight each morning and evening where there is neither full daylight nor complete darkness. The time is considered special because of the quality of the light at this time of day.</target>
+        </trans-unit>
+        <trans-unit id="Resx/AboutTextParagraph2" translate="yes" xml:space="preserve">
+          <source>This application calculates the sunrise and sunset times of your current position. This enables you to create the most beautiful photos using your camera at the blue hour.</source>
+          <target state="new">This application calculates the sunrise and sunset times of your current position. This enables you to create the most beautiful photos using your camera at the blue hour.</target>
+        </trans-unit>
+        <trans-unit id="Resx/AllowAccessLocationServiceCheckBox" translate="yes" xml:space="preserve">
+          <source>Allow Access to your location</source>
+          <target state="new">Allow Access to your location</target>
+        </trans-unit>
+        <trans-unit id="Resx/AllowedToGetLocationData" translate="yes" xml:space="preserve">
+          <source>This application is currently allowed to collect location data. You can disable this option via the settings page</source>
+          <target state="new">This application is currently allowed to collect location data. You can disable this option via the settings page</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarButtonText" translate="yes" xml:space="preserve">
+          <source>add</source>
+          <target state="new">add</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarMenuItemText" translate="yes" xml:space="preserve">
+          <source>Menu Item</source>
+          <target state="new">Menu Item</target>
+        </trans-unit>
+        <trans-unit id="Resx/ApplicationTitle" translate="yes" xml:space="preserve">
+          <source>BLUE HOUR</source>
+          <target state="new">BLUE HOUR</target>
+        </trans-unit>
+        <trans-unit id="Resx/ApplicationTitle1" translate="yes" xml:space="preserve">
+          <source>MY APPLICATION</source>
+          <target state="new">MY APPLICATION</target>
+        </trans-unit>
+        <trans-unit id="Resx/ContactButton" translate="yes" xml:space="preserve">
+          <source>Contact</source>
+          <target state="new">Contact</target>
+        </trans-unit>
+        <trans-unit id="Resx/MoreAppsButton" translate="yes" xml:space="preserve">
+          <source>More Apps</source>
+          <target state="new">More Apps</target>
+        </trans-unit>
+        <trans-unit id="Resx/NotAllowedToGetLocationData" translate="yes" xml:space="preserve">
+          <source>You must allow this application to collect location data. You can enable this option via the settings page. Make sure that you read and understand the privacy policy on the settings page before enabling the location services.</source>
+          <target state="new">You must allow this application to collect location data. You can enable this option via the settings page. Make sure that you read and understand the privacy policy on the settings page before enabling the location services.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Off" translate="yes" xml:space="preserve">
+          <source>Off</source>
+          <target state="new">Off</target>
+        </trans-unit>
+        <trans-unit id="Resx/On" translate="yes" xml:space="preserve">
+          <source>On</source>
+          <target state="new">On</target>
+        </trans-unit>
+        <trans-unit id="Resx/PrivacyPolicy" translate="yes" xml:space="preserve">
+          <source>Privacy Policy
+
+This application uses your current location. This information is used to calculate the time the sun rises and sets at your location. This information is not used to identify or contact you. The location information is also not stored and not shared. Your privacy is important to us. At any time, you can disable access to the location services via the toggle button on this page. 
+
+If you have questions regarding this privacy policy, contact pkalkie@gmail.com.</source>
+          <target state="new">Privacy Policy
+
+This application uses your current location. This information is used to calculate the time the sun rises and sets at your location. This information is not used to identify or contact you. The location information is also not stored and not shared. Your privacy is important to us. At any time, you can disable access to the location services via the toggle button on this page. 
+
+If you have questions regarding this privacy policy, contact pkalkie@gmail.com.</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateButton" translate="yes" xml:space="preserve">
+          <source>Rate</source>
+          <target state="new">Rate</target>
+        </trans-unit>
+        <trans-unit id="Resx/Refresh" translate="yes" xml:space="preserve">
+          <source>Refresh</source>
+          <target state="new">Refresh</target>
+        </trans-unit>
+        <trans-unit id="Resx/ResourceFlowDirection" translate="yes" xml:space="preserve">
+          <source>LeftToRight</source>
+          <target state="translated">LeftToRight</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</note>
+          </trans-unit>
+        <trans-unit id="Resx/ResourceLanguage" translate="yes" xml:space="preserve">
+          <source>en-US</source>
+          <target state="translated">en</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</note>
+          </trans-unit>
+        <trans-unit id="Resx/Settings" translate="yes" xml:space="preserve">
+          <source>Settings</source>
+          <target state="signed-off">Settings</target>
+        </trans-unit>
+        <trans-unit id="Resx/SettingsPageTitle" translate="yes" xml:space="preserve">
+          <source>Settings</source>
+          <target state="new">Settings</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShareButton" translate="yes" xml:space="preserve">
+          <source>Share</source>
+          <target state="new">Share</target>
+        </trans-unit>
+        <trans-unit id="Resx/SunriseSunsetPageTitle" translate="yes" xml:space="preserve">
+          <source>Sunrise Sunset</source>
+          <target state="new">Sunrise Sunset</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

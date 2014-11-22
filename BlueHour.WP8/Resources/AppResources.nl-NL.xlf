@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="nl-NL" original="AppResources.resx" tool-id="MultilingualAppToolkit" product-name="BlueHour.WP8" product-version="1.0.0.0" build-num="0">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="3.1.1085.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resx">
+        <trans-unit id="Resx/About" translate="yes" xml:space="preserve">
+          <source>About</source>
+          <target state="translated">Over</target>
+        </trans-unit>
+        <trans-unit id="Resx/AboutPageTitle" translate="yes" xml:space="preserve">
+          <source>About</source>
+          <target state="translated">Over</target>
+        </trans-unit>
+        <trans-unit id="Resx/AboutTextParagraph1" translate="yes" xml:space="preserve">
+          <source>The blue hour refers to the period of twilight each morning and evening where there is neither full daylight nor complete darkness. The time is considered special because of the quality of the light at this time of day.</source>
+          <target state="translated">Het blauwe uur is die periode tijdens zons opkomst en zons ondergang dat het nog niet licht is maar ook niet donker. Deze tijd is speciaal omdat de kwaliteit van het licht bijzonder mooi is rond deze tijd.</target>
+        </trans-unit>
+        <trans-unit id="Resx/AboutTextParagraph2" translate="yes" xml:space="preserve">
+          <source>This application calculates the sunrise and sunset times of your current position. This enables you to create the most beautiful photos using your camera at the blue hour.</source>
+          <target state="translated">Deze applicatie berekent de zon op en zon onder tijden van uw locatie. Hierdoor weet uw wat de juiste tijd is om de mooiste foto's te maken.</target>
+        </trans-unit>
+        <trans-unit id="Resx/AllowAccessLocationServiceCheckBox" translate="yes" xml:space="preserve">
+          <source>Allow Access to your location</source>
+          <target state="translated">Geef toegang tot uw locatie</target>
+        </trans-unit>
+        <trans-unit id="Resx/AllowedToGetLocationData" translate="yes" xml:space="preserve">
+          <source>This application is currently allowed to collect location data. You can disable this option via the settings page</source>
+          <target state="translated">De applicatie heeft toegang tot uw locatie. Dit kan uit worden gezet via de instelling pagina.</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarMenuItemText" translate="yes" xml:space="preserve">
+          <source>Menu Item</source>
+          <target state="new">Menu Item</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarButtonText" translate="yes" xml:space="preserve">
+          <source>add</source>
+          <target state="new">add</target>
+        </trans-unit>
+        <trans-unit id="Resx/ApplicationTitle" translate="yes" xml:space="preserve">
+          <source>BLUE HOUR</source>
+          <target state="new">BLUE HOUR</target>
+        </trans-unit>
+        <trans-unit id="Resx/ApplicationTitle1" translate="yes" xml:space="preserve">
+          <source>MY APPLICATION</source>
+          <target state="new">MY APPLICATION</target>
+        </trans-unit>
+        <trans-unit id="Resx/ContactButton" translate="yes" xml:space="preserve">
+          <source>Contact</source>
+          <target state="new">Contact</target>
+        </trans-unit>
+        <trans-unit id="Resx/MoreAppsButton" translate="yes" xml:space="preserve">
+          <source>More Apps</source>
+          <target state="translated">Meer Apps</target>
+        </trans-unit>
+        <trans-unit id="Resx/NotAllowedToGetLocationData" translate="yes" xml:space="preserve">
+          <source>You must allow this application to collect location data. You can enable this option via the settings page. Make sure that you read and understand the privacy policy on the settings page before enabling the location services.</source>
+          <target state="translated">Deze applicatie heeft toegang nodig tot uw locatie. Dit kan worden aangezet via de instellingen pagina.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Off" translate="yes" xml:space="preserve">
+          <source>Off</source>
+          <target state="translated">Uit</target>
+        </trans-unit>
+        <trans-unit id="Resx/On" translate="yes" xml:space="preserve">
+          <source>On</source>
+          <target state="translated">Aan</target>
+        </trans-unit>
+        <trans-unit id="Resx/PrivacyPolicy" translate="yes" xml:space="preserve">
+          <source>Privacy Policy
+
+This application uses your current location. This information is used to calculate the time the sun rises and sets at your location. This information is not used to identify or contact you. The location information is also not stored and not shared. Your privacy is important to us. At any time, you can disable access to the location services via the toggle button on this page. 
+
+If you have questions regarding this privacy policy, contact pkalkie@gmail.com.</source>
+          <target state="translated">Privacy Policy
+
+Blue Hour gebruikt uw locatie. Deze informatie wordt gebruikt om de zon op en zon onder tijden te berekenen. De lokatie informatie wordt niet gebruikt om u te identificaren of om contact met u op te nemen. Uw privacy is belangrijk voor ons. De lokatie informatie wordt niet gedeeld of opgeslagen. U kunt de toegang tot uw lokatie uitzetten door bovenstaande toggle knop. 
+
+Heeft u vragen over deze privacy policy neem dan contact op via pkalkie@gmail.com.</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateButton" translate="yes" xml:space="preserve">
+          <source>Rate</source>
+          <target state="translated">Waardeer</target>
+        </trans-unit>
+        <trans-unit id="Resx/Refresh" translate="yes" xml:space="preserve">
+          <source>Refresh</source>
+          <target state="translated">Ververs</target>
+        </trans-unit>
+        <trans-unit id="Resx/ResourceLanguage" translate="yes" xml:space="preserve">
+          <source>en-US</source>
+          <target state="translated">nl-NL</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</note>
+        </trans-unit>
+        <trans-unit id="Resx/ResourceFlowDirection" translate="yes" xml:space="preserve">
+          <source>LeftToRight</source>
+          <target state="translated">LeftToRight</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</note>
+        </trans-unit>
+        <trans-unit id="Resx/Settings" translate="yes" xml:space="preserve">
+          <source>Settings</source>
+          <target state="translated">Instellingen</target>
+        </trans-unit>
+        <trans-unit id="Resx/SettingsPageTitle" translate="yes" xml:space="preserve">
+          <source>Settings</source>
+          <target state="translated">Instellingen</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShareButton" translate="yes" xml:space="preserve">
+          <source>Share</source>
+          <target state="translated">Deel</target>
+        </trans-unit>
+        <trans-unit id="Resx/SunriseSunsetPageTitle" translate="yes" xml:space="preserve">
+          <source>Sunrise Sunset</source>
+          <target state="translated">Zon op onder</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
