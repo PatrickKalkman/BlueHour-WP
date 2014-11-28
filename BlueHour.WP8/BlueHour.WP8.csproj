@@ -281,27 +281,8 @@
       <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup>
-    <XliffResource Include="Resources\AppResources.en.xlf">
-      <Generator>XliffResxGenerator</Generator>
-      <LastGenOutput>AppResources.en.resx</LastGenOutput>
-    </XliffResource>
-    <XliffResource Include="Resources\AppResources.nl-NL.xlf">
-      <Generator>XliffResxGenerator</Generator>
-      <LastGenOutput>AppResources.nl-NL.resx</LastGenOutput>
-    </XliffResource>
-    <XliffResource Include="Resources\AppResources.nl.xlf">
-      <Generator>XliffResxGenerator</Generator>
-      <LastGenOutput>AppResources.nl.resx</LastGenOutput>
-    </XliffResource>
-    <XliffResource Include="Resources\AppResources.qps-ploc.xlf">
-      <Generator>XliffResxGenerator</Generator>
-      <LastGenOutput>AppResources.qps-ploc.resx</LastGenOutput>
-    </XliffResource>
-  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />
-  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.ResxResources.targets" Label="MultilingualAppToolkit" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
